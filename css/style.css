@@ -1,0 +1,133 @@
+/* css */
+.body{
+    background: gainsboro;
+}
+.box{
+    position: absolute;
+    display: inline-block;
+    width:1000px;
+    margin-left: -500px;
+    height:600px;
+    margin-top: -300px;
+    left:50%;
+    top:50%;
+    background:white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(206, 203, 203)
+  
+}
+/* start header */
+.header{
+    height: 30%;
+    padding:50px;
+    background: #f7b2bb;
+    border-radius: 20px 20px 0 0;
+}
+.box .header .image{
+    float: left;
+    width:30%;
+    
+}
+.box .header .image img{
+    max-width: 100%;
+    margin-bottom: -250px;
+    padding: 1px;
+    background: white;
+    border: 1px solid rgb(230, 225, 225);
+    box-shadow: 5px 5px 5px rgb(192, 187, 187)
+}
+.box .header  .info-box{
+    float: left;
+    width:70%;
+    text-align: center;
+    padding-top: 50px
+}
+.box .header  .info-box h1{
+    font-size: 50px;
+    margin: 0 0 10px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+
+}
+.box .header  .info-box p{
+    font-size: 20px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+/* end header */
+/* start info card */
+.info-card , .cv{
+    float: left;
+    width:50%;
+}
+.info-card{
+  padding: 50px;
+
+}
+.info-card h2{
+    font-size: 25px;
+    margin-bottom: 8px
+}
+.info-card h2 span{
+    color: #f7b2bb;
+
+}
+.info-card p{
+    font-size: 17px;
+    line-height: 1.5;
+    color: #6b6666;
+    font-family: tahoma
+
+}
+.info-card button{
+    font-weight: bold;
+    text-transform:uppercase;
+    padding: 10px;
+    background: #fff;
+    color: #212121;
+    box-shadow: 6px 6px 6px rgb(206, 203, 203)
+}
+/* end info card */
+.cv ul {
+    float: right;
+    margin-left: 550px;
+    display: inline;
+    margin-right: -526px;
+    margin-top: -209px;
+    list-style: none;
+}
+.cv ul li{
+    margin: 6px 0;
+    text-align: left;
+}
+.title{
+    color:  #424242;
+    display: inline-block;
+    min-width: 120px;
+    font-size: 18px;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+.value{
+    font-family: Roboto, Helvetica, sans-serif;
+    display: inline-block;
+    color: #9e9e9e;
+    float: right;
+    margin-right: -37px;
+    padding: 3px;
+    font-size: 18px
+}
+.value-one{
+    font-family: Roboto, Helvetica, sans-serif;
+    display: inline-block;
+    color: #9e9e9e;
+    float: right;
+    margin-right: -37px;
+    padding: 3px;
+    font-size: 18px;
+    color: #f7b2bb;
+    }
+/* start clear */
+.clearfix{
+    clear: both;
+    
+}
